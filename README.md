@@ -5,9 +5,11 @@ it's originally made for **Kirinuki** which is making short clip from V-tuber's 
 
 
 # build
-1. To run this project, you need to install **ffmpeg**
+1. To run this project, you need to install **ffmpeg** 
 2. Prepare the livestream video file.
 3. Get video id of livestream from url of it. video id looks like this "v=iH3MCw8bGyg"
+4. Put your secret json file which you can download [here](https://console.cloud.google.com/apis/credentials) on Proeject
+5. replace `client_secrets_file` on `fetchStartTime()` to yours.
 4. run projects, and fill all the information on console.
 
 
